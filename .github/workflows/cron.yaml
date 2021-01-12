@@ -1,0 +1,19 @@
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # Enables on-demand/manual triggering
+jobs:
+  job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3
+      - run: |
+          curl -s 'https://api.github.com/orgs/aws-cloudformation/repos?type=public&per_page=100&sort=full_name' | jq '.[].html_url' | grep 'aws-cloudformation-resource-provider' | xargs -n1 git submodule add
+      - uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: CloudFormation Resource Provider update
+          title: CloudFormation Resource Provider update
+          delete-branch: true
