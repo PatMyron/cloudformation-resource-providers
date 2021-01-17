@@ -15,8 +15,8 @@ jobs:
           java-version: 8
       - run: |
           curl -s 'https://api.github.com/orgs/aws-cloudformation/repos?type=public&per_page=100&sort=full_name' | jq '.[].html_url' | grep 'aws-cloudformation-resource-provider' | xargs -n1 git submodule add
-          rm aws-cloudformation-resource-providers-awsutilities-commandrunner
-          rm aws-cloudformation-resource-providers-*/sample-templates # globalaccelerator also Kotlin
+          rm -rf aws-cloudformation-resource-providers-awsutilities-commandrunner
+          rm -rf aws-cloudformation-resource-providers-*/sample-templates # globalaccelerator also Kotlin
           pip install cloudformation-cli cloudformation-cli-java-plugin --upgrade
           export AWS_DEFAULT_REGION=us-east-1
           export AWS_REGION=us-east-1
