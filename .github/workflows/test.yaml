@@ -20,5 +20,5 @@ jobs:
           pip install cloudformation-cli cloudformation-cli-java-plugin --upgrade
           export AWS_DEFAULT_REGION=us-east-1
           export AWS_REGION=us-east-1
-          subdir() { for d in *; do (cd "$d" && "$@"); done }
+          subdir() { for d in */ ; do (cd "$d" && "$@"); done }
           subdir subdir mvn clean verify --no-transfer-progress
