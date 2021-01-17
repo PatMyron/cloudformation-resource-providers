@@ -21,4 +21,5 @@ jobs:
           export AWS_DEFAULT_REGION=us-east-1
           export AWS_REGION=us-east-1
           subdir() { for d in */ ; do (cd "$d" && "$@"); done }
+          set +e
           subdir subdir mvn clean verify --no-transfer-progress
