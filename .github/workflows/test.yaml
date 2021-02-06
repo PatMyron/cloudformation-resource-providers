@@ -22,4 +22,4 @@ jobs:
           export AWS_REGION=us-east-1
           subdir() { for d in */ ; do (cd "$d" && "$@"); done }
           set +e
-          subdir subdir mvn clean verify --no-transfer-progress
+          subdir subdir mvn clean verify --no-transfer-progress -Djacoco.skip=true
