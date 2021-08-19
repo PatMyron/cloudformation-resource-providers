@@ -11,7 +11,8 @@ jobs:
         with:
           python-version: 3
       - run: |
-          curl -s 'https://api.github.com/orgs/aws-cloudformation/repos?type=public&per_page=100&sort=full_name' | jq '.[].html_url' | grep 'aws-cloudformation-resource-provider' | xargs -n1 git submodule add
+          pip install requests
+          python .github/workflows/main.py
       - uses: peter-evans/create-pull-request@v3
         with:
           commit-message: CloudFormation Resource Provider update
