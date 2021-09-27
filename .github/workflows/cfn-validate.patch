@@ -1,7 +1,11 @@
 diff --git a/src/rpdk/core/project.py b/src/rpdk/core/project.py
+index 2c2a8ce..2910487 100644
 --- a/src/rpdk/core/project.py
 +++ b/src/rpdk/core/project.py
-@@ -330,8 +330,11 @@ def load_schema(self):
+@@ -337,8 +337,11 @@ class Project:  # pylint: disable=too-many-instance-attributes,too-many-public-m
+             LOG.critical(msg)
+             raise InternalError(msg)
+ 
 -        with self.schema_path.open("r", encoding="utf-8") as f:
 -            self.schema = load_resource_spec(f)
 +        for f in os.listdir(self.root):
@@ -9,3 +13,6 @@ diff --git a/src/rpdk/core/project.py b/src/rpdk/core/project.py
 +                continue
 +            with open(os.path.join(self.root, f)) as schema:
 +                self.schema = load_resource_spec(schema)
+ 
+     def load_configuration_schema(self):
+         if not self.schema:
