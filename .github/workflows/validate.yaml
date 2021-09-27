@@ -27,3 +27,4 @@ jobs:
           # dummy .rpdk-config project file to get to validation step
           echo '{"typeName": "AWS::Service::Type", "language": "java", "runtime": "java8", "entrypoint": "software.amazon.service.type.HandlerWrapper::handleRequest", "testEntrypoint": "software.amazon.service.type.HandlerWrapper::testEntrypoint"}' > .rpdk-config
           cfn validate | sort | uniq | sort -nr
+          cat rpdk.log
