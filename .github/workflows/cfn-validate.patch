@@ -1,0 +1,11 @@
+diff --git a/src/rpdk/core/project.py b/src/rpdk/core/project.py
+--- a/src/rpdk/core/project.py
++++ b/src/rpdk/core/project.py
+@@ -330,8 +330,11 @@ def load_schema(self):
+-        with self.schema_path.open("r", encoding="utf-8") as f:
+-            self.schema = load_resource_spec(f)
++        for f in os.listdir(self.root):
++            if 'rpdk' in f: # skip .rpdk-config / rpdk.log
++                continue
++            with open(os.path.join(self.root, f)) as schema:
++                self.schema = load_resource_spec(schema)
