@@ -18,8 +18,8 @@ jobs:
           git clone https://github.com/aws-cloudformation/cloudformation-cli
           cd cloudformation-cli # modifying cfn validate: https://github.com/aws-cloudformation/cloudformation-cli/pull/604#issuecomment-756521889
           git apply ../.github/workflows/cfn-validate.patch
-          pip install -e .
-          pip install cloudformation-cli-java-plugin
+          pip install -q -e .
+          pip install -q cloudformation-cli-java-plugin
 
           curl -s -L https://schema.cloudformation.us-east-1.amazonaws.com/CloudformationSchema.zip -o schemas.zip
           unzip -q schemas.zip -d schemas # download all current schemas to new directory
