@@ -1,0 +1,27 @@
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # Enables on-demand/manual triggering
+jobs:
+  job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3
+      - run: |
+          git clone https://github.com/aws-cloudformation/cloudformation-cli
+          cd cloudformation-cli # modifying cfn validate: https://github.com/aws-cloudformation/cloudformation-cli/pull/604#issuecomment-756521889
+          git apply ../.github/workflows/cfn-validate.patch
+          pip install -e .
+
+          mkdir CloudformationSchema # download all current schemas to new directory
+          curl -s https://schema.cloudformation.us-east-1.amazonaws.com/CloudformationSchema.zip | tar xvz -C CloudformationSchema
+          cd CloudformationSchema
+          grep -L '"handlers"' * | xargs rm # remove auto-generated schemas from frameworks before CloudFormation Registry
+          # dummy .rpdk-config project file to get to validation step
+          echo '{"typeName": "AWS::Service::Type", "language": "java", "runtime": "java8", "entrypoint": "software.amazon.service.type.HandlerWrapper::handleRequest", "testEntrypoint": "software.amazon.service.type.HandlerWrapper::testEntrypoint"}' > .rpdk-config
+          cfn validate | sort | uniq | sort -nr
