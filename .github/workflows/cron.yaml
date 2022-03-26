@@ -13,7 +13,7 @@ jobs:
         with:
           python-version: 3
       - run: |
-          pip install requests
+          pip install -q requests
           python .github/workflows/main.py
       - uses: peter-evans/create-pull-request@v3
         with:
