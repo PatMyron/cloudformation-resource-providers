@@ -6,7 +6,7 @@ jobs:
   job:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           ref: main
       - uses: actions/setup-python@v2
@@ -15,7 +15,7 @@ jobs:
       - run: |
           pip install -q requests
           python .github/workflows/main.py
-      - uses: peter-evans/create-pull-request@v3
+      - uses: peter-evans/create-pull-request@v6
         with:
           commit-message: CloudFormation Resource Provider update
           title: CloudFormation Resource Provider update
