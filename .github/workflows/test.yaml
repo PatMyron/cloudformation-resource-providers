@@ -14,7 +14,7 @@ jobs:
         with:
           java-version: 8
       - run: |
-          pip install requests
+          pip install -q requests
           python .github/workflows/main.py
           rm -rf awsutilities-commandrunner eventschemas # weird directory structures
           rm -rf */sample-templates # globalaccelerator also Kotlin
