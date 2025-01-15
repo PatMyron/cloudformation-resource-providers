@@ -1,6 +1,5 @@
 on:
   push:
-    branches: main
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch: # Enables on-demand/manual triggering
@@ -19,7 +18,7 @@ jobs:
           cd cloudformation-cli # modifying cfn validate: https://github.com/aws-cloudformation/cloudformation-cli/pull/604#issuecomment-756521889
           git apply ../.github/workflows/cfn-validate.patch
           pip install -q -e .
-          pip install -q cloudformation-cli-java-plugin
+          pip install -q cloudformation-cli-java-plugin setuptools
 
           curl -s -L https://schema.cloudformation.us-east-1.amazonaws.com/CloudformationSchema.zip -o schemas.zip
           unzip -q schemas.zip -d schemas # download all current schemas to new directory
