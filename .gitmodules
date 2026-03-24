@@ -1,0 +1,342 @@
+[submodule "qbusiness"]
+	path = qbusiness
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-provider-qbusiness
+[submodule "accessanalyzer"]
+	path = accessanalyzer
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-accessanalyzer
+[submodule "acmpca"]
+	path = acmpca
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-acmpca
+[submodule "amplify"]
+	path = amplify
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-amplify
+[submodule "amplifyuibuilder"]
+	path = amplifyuibuilder
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-amplifyuibuilder
+[submodule "applicationinsights"]
+	path = applicationinsights
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-applicationinsights
+[submodule "apprunner"]
+	path = apprunner
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-apprunner
+[submodule "aps"]
+	path = aps
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-aps
+[submodule "athena"]
+	path = athena
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-athena
+[submodule "auditmanager"]
+	path = auditmanager
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-auditmanager
+[submodule "awsutilities-commandrunner"]
+	path = awsutilities-commandrunner
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-awsutilities-commandrunner
+[submodule "b2bi"]
+	path = b2bi
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-b2bi
+[submodule "batch"]
+	path = batch
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-batch
+[submodule "bedrock-original"]
+	path = bedrock-original
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-bedrock-original
+[submodule "budgets"]
+	path = budgets
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-budgets
+[submodule "cleanrooms"]
+	path = cleanrooms
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-cleanrooms
+[submodule "cloudformation"]
+	path = cloudformation
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-cloudformation
+[submodule "codeartifact"]
+	path = codeartifact
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-codeartifact
+[submodule "codeguru-profiler"]
+	path = codeguru-profiler
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-codeguru-profiler
+[submodule "codegurureviewer"]
+	path = codegurureviewer
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-codegurureviewer
+[submodule "comprehend"]
+	path = comprehend
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-comprehend
+[submodule "connect"]
+	path = connect
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-connect
+[submodule "controltower"]
+	path = controltower
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-controltower
+[submodule "cost-explorer"]
+	path = cost-explorer
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-cost-explorer
+[submodule "cur"]
+	path = cur
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-cur
+[submodule "customer-profiles"]
+	path = customer-profiles
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-customer-profiles
+[submodule "databrew"]
+	path = databrew
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-databrew
+[submodule "datasync"]
+	path = datasync
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-datasync
+[submodule "datazone"]
+	path = datazone
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-datazone
+[submodule "device-advisor"]
+	path = device-advisor
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-device-advisor
+[submodule "devops-guru"]
+	path = devops-guru
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-devops-guru
+[submodule "docdbelastic"]
+	path = docdbelastic
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-docdbelastic
+[submodule "ec2-acmcerts"]
+	path = ec2-acmcerts
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-ec2-acmcerts
+[submodule "ec2-cagw"]
+	path = ec2-cagw
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-ec2-cagw
+[submodule "ec2-capacity-reservation"]
+	path = ec2-capacity-reservation
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-ec2-capacity-reservation
+[submodule "ec2-capacity-reservation-fleet"]
+	path = ec2-capacity-reservation-fleet
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-ec2-capacity-reservation-fleet
+[submodule "ec2-flowlog"]
+	path = ec2-flowlog
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-ec2-flowlog
+[submodule "ec2-lgw"]
+	path = ec2-lgw
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-ec2-lgw
+[submodule "ec2-nat-gateway"]
+	path = ec2-nat-gateway
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-ec2-nat-gateway
+[submodule "ec2-prefix-list"]
+	path = ec2-prefix-list
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-ec2-prefix-list
+[submodule "ecr"]
+	path = ecr
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-ecr
+[submodule "emrcontainers"]
+	path = emrcontainers
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-emrcontainers
+[submodule "emrserverless"]
+	path = emrserverless
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-emrserverless
+[submodule "emrwal"]
+	path = emrwal
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-emrwal
+[submodule "entity-resolution"]
+	path = entity-resolution
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-entity-resolution
+[submodule "events"]
+	path = events
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-events
+[submodule "eventschemas"]
+	path = eventschemas
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-eventschemas
+[submodule "fms"]
+	path = fms
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-fms
+[submodule "frauddetector"]
+	path = frauddetector
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-frauddetector
+[submodule "fsx"]
+	path = fsx
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-fsx
+[submodule "globalaccelerator"]
+	path = globalaccelerator
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-globalaccelerator
+[submodule "glue"]
+	path = glue
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-glue
+[submodule "greengrassv2"]
+	path = greengrassv2
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-greengrassv2
+[submodule "identitystore"]
+	path = identitystore
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-identitystore
+[submodule "imagebuilder"]
+	path = imagebuilder
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-imagebuilder
+[submodule "iot"]
+	path = iot
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-iot
+[submodule "iotanalytics"]
+	path = iotanalytics
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-iotanalytics
+[submodule "iotfleethub"]
+	path = iotfleethub
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-iotfleethub
+[submodule "iotfleetindexing"]
+	path = iotfleetindexing
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-iotfleetindexing
+[submodule "iotwireless"]
+	path = iotwireless
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-iotwireless
+[submodule "kafkaconnect"]
+	path = kafkaconnect
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-kafkaconnect
+[submodule "kendra"]
+	path = kendra
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-kendra
+[submodule "kendra-ranking"]
+	path = kendra-ranking
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-kendra-ranking
+[submodule "kinesisfirehose"]
+	path = kinesisfirehose
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-kinesisfirehose
+[submodule "kms"]
+	path = kms
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-kms
+[submodule "licensemanager"]
+	path = licensemanager
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-licensemanager
+[submodule "lightsail"]
+	path = lightsail
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-lightsail
+[submodule "logs"]
+	path = logs
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-logs
+[submodule "lookoutvision"]
+	path = lookoutvision
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-lookoutvision
+[submodule "m2"]
+	path = m2
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-m2
+[submodule "macie"]
+	path = macie
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-macie
+[submodule "memorydb"]
+	path = memorydb
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-memorydb
+[submodule "msk-replicator"]
+	path = msk-replicator
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-msk-replicator
+[submodule "msk-serverless"]
+	path = msk-serverless
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-msk-serverless
+[submodule "mwaa"]
+	path = mwaa
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-mwaa
+[submodule "networkfirewall"]
+	path = networkfirewall
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-networkfirewall
+[submodule "networkmanager"]
+	path = networkmanager
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-networkmanager
+[submodule "nimblestudio"]
+	path = nimblestudio
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-nimblestudio
+[submodule "omics"]
+	path = omics
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-omics
+[submodule "opensearchserverless"]
+	path = opensearchserverless
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-opensearchserverless
+[submodule "opsworkscm"]
+	path = opsworkscm
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-opsworkscm
+[submodule "organizations"]
+	path = organizations
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-organizations
+[submodule "panorama"]
+	path = panorama
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-panorama
+[submodule "ram"]
+	path = ram
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-ram
+[submodule "rds"]
+	path = rds
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-rds
+[submodule "rds-proxy"]
+	path = rds-proxy
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-rds-proxy
+[submodule "redshift"]
+	path = redshift
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-redshift
+[submodule "redshift-serverless"]
+	path = redshift-serverless
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-redshift-serverless
+[submodule "rekognition"]
+	path = rekognition
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-rekognition
+[submodule "resiliencehub"]
+	path = resiliencehub
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-resiliencehub
+[submodule "resource-explorer"]
+	path = resource-explorer
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-resource-explorer
+[submodule "rolesanywhere"]
+	path = rolesanywhere
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-rolesanywhere
+[submodule "route53-recovery-control"]
+	path = route53-recovery-control
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-route53-recovery-control
+[submodule "route53-recovery-readiness"]
+	path = route53-recovery-readiness
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-route53-recovery-readiness
+[submodule "route53resolver-outpostresolver"]
+	path = route53resolver-outpostresolver
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-route53resolver-outpostresolver
+[submodule "s3outposts"]
+	path = s3outposts
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-s3outposts
+[submodule "sagemaker"]
+	path = sagemaker
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-sagemaker
+[submodule "servicecatalog"]
+	path = servicecatalog
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-servicecatalog
+[submodule "ses"]
+	path = ses
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-ses
+[submodule "ses-mailmanager"]
+	path = ses-mailmanager
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-ses-mailmanager
+[submodule "shield"]
+	path = shield
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-shield
+[submodule "sns"]
+	path = sns
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-sns
+[submodule "ssm"]
+	path = ssm
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-ssm
+[submodule "ssm-incidents"]
+	path = ssm-incidents
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-ssm-incidents
+[submodule "sso"]
+	path = sso
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-sso
+[submodule "stepfunctions"]
+	path = stepfunctions
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-stepfunctions
+[submodule "synthetics"]
+	path = synthetics
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-synthetics
+[submodule "timestream"]
+	path = timestream
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-timestream
+[submodule "transfer"]
+	path = transfer
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-transfer
+[submodule "transitgateway"]
+	path = transitgateway
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-transitgateway
+[submodule "voiceid"]
+	path = voiceid
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-voiceid
+[submodule "vpc-lattice"]
+	path = vpc-lattice
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-vpc-lattice
+[submodule "wafv2"]
+	path = wafv2
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-wafv2
+[submodule "xray"]
+	path = xray
+	url = https://github.com/aws-cloudformation/aws-cloudformation-resource-providers-xray
